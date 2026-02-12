@@ -1,6 +1,6 @@
 # Kodi repository
 
-Repo pro doplňky SpořilovNet.
+Repo pro doplněk **Automaticke prehravani filmu ze slozky**.
 
 ## Instalace repozitáře
 
@@ -8,4 +8,4 @@ Repo pro doplňky SpořilovNet.
 
 ## Doplňky
 
-- `service.autoplaymovies`
+- `service.autoplaymovies-1.0.3.zip`
