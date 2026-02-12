@@ -1,7 +1,11 @@
 # Kodi repository
 
-Repo pro doplněk **Automaticke prehravani filmu ze slozky**.
+Repo pro doplňky SpořilovNet.
 
-Stáhni a nainstaluj repozitářový ZIP:
+## Instalace repozitáře
 
-- `repository.internetvprazecreator-1.0.0.zip`
+- `repository.internetvprazecreator-1.0.1.zip`
+
+## Doplňky
+
+- `service.autoplaymovies`
