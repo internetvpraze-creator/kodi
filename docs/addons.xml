@@ -35,7 +35,9 @@
 
   <extension point="xbmc.addon.metadata">
     <summary lang="cs_CZ">Po startu Kodi automaticky přehraje videa ze složky Movies</summary>
-    <description lang="cs_CZ">Servisní doplněk: po startu Kodi načte videa ze zvolené složky, sestaví playlist, spustí přehrávání, nastaví opakování (Repeat All) a volitelně na začátku na 2 s zobrazí text SpořilovNet.</description>
+    <description lang="cs_CZ">Po startu Kodi, doplněk načte videa ze zvolené složky a spustí nekonečnou smyčku přehrávání.
+
+Internet v Praze jedině od SpořilovNet. :-)</description>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
