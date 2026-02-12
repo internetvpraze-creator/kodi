@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.internetvprazecreator"
+       name="InternetVPraze - Kodi Repository"
+       version="1.0.0"
+       provider-name="internetvpraze-creator">
+  <extension point="xbmc.addon.repository" name="InternetVPraze - Kodi Repository">
+    <dir>
+      <info compressed="false">https://internetvpraze-creator.github.io/kodi/addons.xml</info>
+      <checksum>https://internetvpraze-creator.github.io/kodi/addons.xml.md5</checksum>
+      <datadir zip="true">https://internetvpraze-creator.github.io/kodi/</datadir>
+    </dir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Repozitář pro Autoplay Movies</summary>
+    <description lang="cs_CZ">Repozitář doplňků: Autoplay Movies Folder (Startup).</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.autoplaymovies"
+       name="Automaticke prehravani filmu ze slozky"
+       version="1.0.0"
+       provider-name="SporilovNet">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Po startu Kodi automaticky přehraje videa ze složky Movies</summary>
+    <description lang="cs_CZ">Servisní doplněk: vezme všechna videa ze /storage/emulated/0/Movies, vytvoří playlist, spustí a zapne opakování...doufám</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
