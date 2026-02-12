@@ -21,7 +21,7 @@
 
 <addon id="service.autoplaymovies"
        name="Automaticke prehravani filmu ze slozky"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="SporilovNet">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -31,7 +31,11 @@
 
   <extension point="xbmc.addon.metadata">
     <summary lang="cs_CZ">Po startu Kodi automaticky přehraje videa ze složky Movies</summary>
-    <description lang="cs_CZ">Servisní doplněk: vezme všechna videa ze /storage/emulated/0/Movies, vytvoří playlist, spustí a zapne opakování...doufám</description>
+    <description lang="cs_CZ">Servisní doplněk: po startu Kodi načte videa ze /storage/emulated/0/Movies, sestaví playlist, spustí přehrávání a nastaví opakování (Repeat All).</description>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
     <platform>all</platform>
   </extension>
 </addon>
